@@ -1,5 +1,9 @@
 import Profile from 'components/Profile';
 import user from './user.json';
+import data from './data.json';
+// import friends from './friends.json';
+// import TransactionHistory from './transactions.json';
+import Statistics from 'components/Statistics';
 
 export default function App() {
   return (
@@ -13,6 +17,8 @@ export default function App() {
         SumViews={user.stats.views}
         SumLikes={user.stats.likes}
       />
+
+      <Statistics items={data} />
     </div>
   );
 }
