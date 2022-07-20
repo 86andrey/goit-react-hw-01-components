@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+// import { StrictMode } from 'react';
 
 const Profile = ({
   name,
@@ -36,7 +37,7 @@ const Profile = ({
   );
 };
 
-Profile.PropTypes = {
+Profile.propTypes = {
   name: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,
