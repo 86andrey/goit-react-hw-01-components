@@ -1,10 +1,10 @@
-import UserCard from 'components/User';
+import Profile from 'components/Profile';
 import user from './user.json';
 
 export default function App() {
   return (
     <div>
-      <UserCard
+      <Profile
         name={user.username}
         tag={user.tag}
         location={user.location}

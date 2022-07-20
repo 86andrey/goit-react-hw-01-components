@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const UserCard = ({
+const Profile = ({
   name,
   tag,
   location,
@@ -36,7 +36,7 @@ const UserCard = ({
   );
 };
 
-UserCard.PropTypes = {
+Profile.PropTypes = {
   name: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,
@@ -46,4 +46,4 @@ UserCard.PropTypes = {
   SumLikes: PropTypes.number,
 };
 
-export default UserCard;
+export default Profile;
