@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-
+import style from './Statistics.module.css';
 
 const Statistics = ({data}) => {
   return (
-    <section className="statistics">
+    <section className={style.statistics}>
   <h2 className="title">Upload stats</h2>
 
       <ul className="stat-list">

@@ -1,0 +1,10 @@
+.statistics {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
