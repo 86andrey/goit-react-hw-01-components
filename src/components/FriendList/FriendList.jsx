@@ -6,8 +6,7 @@ const FriendList = ({ friends }) => {
         {friends.map(({ avatar, name, isOnline, id }) => (
             <FriendListItem avatar={avatar} name={name} isOnline={isOnline} id={id} />
         ))}
-    </ul>    
-    );
+    </ul>);
 };
 
 FriendList.propTypes = {
