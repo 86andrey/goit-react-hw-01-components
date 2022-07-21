@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import { StrictMode } from 'react';
+
 
 const Profile = ({
   name,
@@ -38,13 +38,13 @@ const Profile = ({
 };
 
 Profile.propTypes = {
-  name: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
-  SumFollowers: PropTypes.number,
-  SumViews: PropTypes.number,
-  SumLikes: PropTypes.number,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  SumFollowers: PropTypes.number.isRequired,
+  SumViews: PropTypes.number.isRequired,
+  SumLikes: PropTypes.number.isRequired,
 };
 
 export default Profile;
