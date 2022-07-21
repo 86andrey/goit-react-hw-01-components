@@ -4,15 +4,15 @@ import style from './Statistics.module.css';
 const Statistics = ({data}) => {
   return (
     <section className={style.statistics}>
-  <h2 className="title">Upload stats</h2>
+      <h2 className={style.title}>Upload stats</h2>
 
-      <ul className="stat-list">
+      <ul className={style.statList}>
         {data.map(({ id, label, percentage }) => (
-          <li className="item" key={id}>
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}%</span>
+          <li className={style.item} key={id}>
+            <span className={style.label}>{label}</span>
+            <span className={style.percentage}>{percentage}%</span>
           </li>
-        ))};
+        ))}
   </ul>
 </section>
   );
