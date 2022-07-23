@@ -19,7 +19,7 @@ export default function App() {
         SumViews={user.stats.views}
         SumLikes={user.stats.likes}
       />
-      <Statistics data={data} />
+      <Statistics stats={data} title="Upload stats"/>
       <FriendList friends={friends} />
       <TransactionHistory items={items}/>
     </div>
